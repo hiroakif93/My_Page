@@ -1,18 +1,18 @@
 @import "mixin";
 
 .index {
-    position: relative; 
-    background-image: url('../images/network4.png'); 
-    background-position: 50vw -10vh; 
-    background-repeat: no-repeat; 
-    background-size: auto; 
+    position: relative;
+    background-image: url("../images/network4.png");
+    background-position: 50vw -10vh;
+    background-repeat: no-repeat;
+    background-size: auto;
     z-index: -1;
     padding-left: 2rem;
     padding-right: 0;
 
     h1 {
         font-size: 400%;
-        font-family: 'Raleway', sans-serif;
+        font-family: "Raleway", sans-serif;
         font-weight: 400;
         margin-bottom: 0;
         @include breakpoint(md) {
@@ -24,10 +24,12 @@
         }
     }
 
-    h2, h3, h4 {
+    h2,
+    h3,
+    h4 {
         margin-bottom: 0;
         font-size: 150%;
-        
+
         @include breakpoint(md) {
             font-size: 130%;
         }
@@ -45,16 +47,15 @@
             font-size: 90%;
         }
     }
-    
+
     hr {
         margin: 2rem 0;
         position: relative;
         right: 30%;
         width: 100%;
         border-top: 5px double var(--theme-sub-color-dark);
-        z-index: -10; 
+        z-index: -10;
     }
-
 }
 
 .container {
@@ -92,12 +93,12 @@
     padding-bottom: 5%;
     margin-top: 2%;
     width: 50%;
-    ul {  
+    ul {
         @include box-style();
         li {
             margin: 2% 3%;
-        }        
-     }
+        }
+    }
 
     @include breakpoint(md) {
         width: 90%;

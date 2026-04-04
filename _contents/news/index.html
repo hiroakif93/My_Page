@@ -1,0 +1,22 @@
+---
+layout: default
+title: News
+lang: ja
+en_path: "/_contents/news/index_en.html"
+---
+
+{% assign news_data = site.data.news_jp %}
+<main class="news">
+    <ul>
+        {% for item in news_data %}
+        <li>
+            {{ item.date }} : {% if item.url %}
+            <a href="{{ item.url }}"><strong>{{ item.title }}</strong></a>
+            {% else %}
+            <strong>{{ item.title }}</strong>
+            {% endif %}<br />
+            {{ item.description }}<br /><br />
+        </li>
+        {% endfor %}
+    </ul>
+</main>

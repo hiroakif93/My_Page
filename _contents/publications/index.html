@@ -6,38 +6,52 @@ en_path: "/_contents/publications/index_en.html"
 ---
 
 <main class="pub">
-
     <div class="link">
-        <a href="https://scholar.google.com/citations?user=YaIBsrwAAAAJ&hl=ja" class="pubtop">
-            <i class="fa-duotone fa-solid fa-up-right-from-square" style="--fa-secondary-color: #849fce;"></i> Google scholar</a>
-        <a href='https://researchmap.jp/hiroakif93/published_papers' target='_blank' class="rmap">
-            <img title='researchmap' alt='researchmap' src='https://researchmap.jp/outline/img/researchmap130.gif' />
+        <a
+            href="https://scholar.google.com/citations?user=1eTJs60AAAAJ&hl=ja"
+            class="pubtop"
+        >
+            <i
+                class="fa-duotone fa-solid fa-up-right-from-square"
+                style="--fa-secondary-color: #849fce"
+            ></i>
+            Google scholar</a
+        >
+        <a
+            href="https://researchmap.jp/hiroakif93/published_papers"
+            target="_blank"
+            class="rmap"
+        >
+            <img
+                title="researchmap"
+                alt="researchmap"
+                src="https://researchmap.jp/outline/img/researchmap130.gif"
+            />
         </a>
-    </div>    
+    </div>
 
-    <h1>査読付き論文</h1> 
-    <hr>
+    <h1>査読付き論文</h1>
+    <hr />
     <ol>
-    {% for pub in site.data.publications.publications %}        
-        {% assign metadata = pub[1] %}
-        
-            <li>
-                {{ metadata.AU }}., ({{ metadata.PY }}).<br>
-                <b>{{ metadata.TI }}</b>.  <i>{{ metadata.JO }}.</i> <br>
-                DOI: <a href="https://doi.org/{{ metadata.DO }}">{{ metadata.DO }}</a>
-            </li>
-        
-    {% endfor %}
+        {% for pub in site.data.publications.publications %} {% assign metadata
+        = pub[1] %}
+
+        <li>
+            {{ metadata.AU }}., ({{ metadata.PY }}).<br />
+            <b>{{ metadata.TI }}</b>. <i>{{ metadata.JO }}.</i> <br />
+            DOI:
+            <a href="https://doi.org/{{ metadata.DO }}">{{ metadata.DO }}</a>
+        </li>
+
+        {% endfor %}
     </ol>
 
-    <h1>プレスリリース</h1> 
-    <hr>
+    <h1>プレスリリース</h1>
+    <hr />
     <ol class="press">
-    {% for pub in site.data.publications.press %}                       
-        <li>{{ pub.name }}.</li>       
-        <a href="{{ pub.url }}">{{ pub.url }}</a>         
-    {% endfor %}
+        {% for pub in site.data.publications.press %}
+        <li>{{ pub.name }}.</li>
+        <a href="{{ pub.url }}">{{ pub.url }}</a>
+        {% endfor %}
     </ol>
-
-    
 </main>
