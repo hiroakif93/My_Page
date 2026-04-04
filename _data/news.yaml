@@ -1,18 +1,43 @@
+- date: 2026-04-01
+  title: Research grant awarded.
+  description: Selected for the Fermentation Research Institute Young Researcher Grant.
+  url:
+
+- date: 2026-03-12
+  title: Presentation.
+  description: Organized a symposium at the Ecological Society of Japan.
+  url: https://www.esj.ne.jp/meeting/abst/73/S10.html
+
+- date: 2026-02-18
+  title: Presentation.
+  description: Presented at the Network Science Seminar 2025.
+  url: https://www.network-science-seminar.com/activities/2025
+
+- date: 2026-01-21
+  title: Presentation.
+  description: Gave a talk at the regular open seminar of Kyoto University's Research Institute for Sustainable Humanosphere.
+  url: https://www.rish.kyoto-u.ac.jp/events/seminar-0336/
+
+- date: 2025-10-01
+  title: Research grant awarded.
+  description: Selected for ACT-X "Life and Information".
+  url: https://www.jst.go.jp/kisoken/act-x/project/111F009/111F009_2025.html
+
 - date: 2025-7-28
   title: Publicatioin.
-  description: 
-  url:  https://doi.org/10.1111/1440-1703.70002
+  description:
+  url: https://doi.org/10.1111/1440-1703.70002
 
 - date: 2025-5-27
   title: Conference Participation.
   description: I will be participating in a symposium at the ASME2025.
   url: https://asme0.wordpress.com/
-  
+
 - date: 2025-3-28
   title: Conference Participation.
   description: I will be participating in a symposium at the ACMB-JSMB2025.
   url: https://pub.confit.atlas.jp/en/event/acmbjsmb2025/table/2025-07-07
-  
+
 - date: 2025-03-08
   title: Publicatioin
   description: The research of applying Energy Landscape Analysis to microbial communities in agricultural soil was published in Environmental microbiome.
@@ -22,8 +47,8 @@
   title: Conference Participation.
   description: I will be participating in a workshop at the Annual Meeting of the Ecological Society of Japan.
   url: https://esj.ne.jp/meeting/abst/72/W10.html
-  
+
 - date: 2024-12-30
   title: Website open.
-  description: 
-  url: 
+  description:
+  url:

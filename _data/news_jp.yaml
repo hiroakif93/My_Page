@@ -1,7 +1,32 @@
+- date: 2026-04-01
+  title: 研究費獲得.
+  description: 発酵研究所の若手研究者助成に採択されました。
+  url:
+
+- date: 2026-03-12
+  title: 発表.
+  description: 日本生態学会のシンポジウムを開催しました。
+  url: https://www.esj.ne.jp/meeting/abst/73/S10.html
+
+- date: 2026-02-18
+  title: 発表.
+  description: ネットワーク科学セミナー2025で話しました。
+  url: https://www.network-science-seminar.com/activities/2025
+
+- date: 2026-01-21
+  title: 発表.
+  description: 京大 生存圏研究所の定例オープンセミナーで話しました。
+  url: https://www.rish.kyoto-u.ac.jp/events/seminar-0336/
+
+- date: 2025-10-01
+  title: 研究費獲得.
+  description: ACT-X「生命と情報」に採択されました。
+  url: https://www.jst.go.jp/kisoken/act-x/project/111F009/111F009_2025.html
+
 - date: 2025-7-28
   title: 論文掲載.
   description: 第72回生態学会 自由集会の内容が論文として発表されました.私は、形態素解析で貢献しています.
-  url:  https://doi.org/10.1111/1440-1703.70002
+  url: https://doi.org/10.1111/1440-1703.70002
 
 - date: 2025-5-27
   title: 学会参加.
@@ -12,7 +37,7 @@
   title: 学会参加.
   description: ACMB-JSMB2025のミニシンポに参加します.
   url: https://pub.confit.atlas.jp/en/event/acmbjsmb2025/table/2025-07-07
-  
+
 - date: 2025-03-13
   title: プレスリリース
   description: ”Alternative stable states of microbiome structure and soil ecosystem functions”のプレスリリースを出しました。
@@ -27,8 +52,8 @@
   title: 学会参加.
   description: 第72回日本生態学会大会（ESJ72）の自由集会に参加します。
   url: https://esj.ne.jp/meeting/abst/72/W10.html
-  
+
 - date: 2024-12-30
   title: Website open.
-  description: 
-  url: 
+  description:
+  url:
